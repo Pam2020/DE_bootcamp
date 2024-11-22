@@ -2,13 +2,13 @@
 
 Practicing DE projects from Zach Wilson's DE bootcamp!
 
-Week 1: Dimensional Data Modeling: Hands-on
+### Week 1: Dimensional Data Modeling: Hands-on
 
 In this week, we will be building a cumulative table design. When building master data, we need to have the complete history, store all dimensions. 
 
 Core components of cumulative table design:
 - 2 Dataframes (yesterday and today)
-- FULL OUTER JOIN hthe two dataframes
+- FULL OUTER JOIN the two dataframes
 - COALESCE ids and other unchanging dimensions
 - Compute cumulative metrics (eg. days since x)
 - Combine arrays and changing values
