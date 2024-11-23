@@ -16,7 +16,27 @@ Core components of cumulative table design:
 Hands-on:
 1. Install Docker desktop from the website. 
    - https://www.docker.com/
-2. Run a PostgreSQL instance on the docker desktop.
+2. Clone the repository.
+
+## 1️⃣ **Clone the repository**
+
+- Clone the repo using the SSH link. This will create a new folder in the current directory on your local machine.
+    
+    ```bash
+    git clone git@github.com:DataExpert-io/data-engineer-handbook.git
+    ```
+    
+    > ℹ️ To securely interact with GitHub repositories, it is recommended to use SSH keys. Follow the instructions provided **[here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)** to set up SSH keys on GitHub. Set up an SSH key on your computer and upload it into Github. 
+    > 
+
+- Navigate into the cloned repo using the command line:
+    
+    ```bash
+    cd data-engineer-handbook/bootcamp/materials/1-dimensional-data-modeling
+    ```
+
+
+4. Run a PostgreSQL instance on the docker desktop.
    - Pull the PostgreSQL Image: bf{docker pull postgres}
    - Run a PostgreSQL container: docker run --name my-postgres -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=adminpassword -e POSTGRES_DB=mydatabase -p 5432:5432 -d postgres
    - Verify the container: docker ps
