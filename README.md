@@ -90,7 +90,7 @@ Core components of cumulative table design:
     
 - If the test connection is successful, click "Finish" or "Save" to save the connection. You should now be able to use the database client to manage your PostgreSQL database locally.
 
-#### Cumulative table design and historical analysis
+#### 5. Cumulative table design and historical analysis
 Find all the queries used to build the cumulative table creation and analysis in the CumulativeTableDesign.sql script.
 
 
