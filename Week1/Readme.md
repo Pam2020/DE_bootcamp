@@ -9,7 +9,6 @@ Core components of cumulative table design:
 - Compute cumulative metrics (eg. days since x)
 - Combine arrays and changing values
 
-### Hands-on:
 #### 1. Install Docker desktop from the website. 
    - https://www.docker.com/
 
