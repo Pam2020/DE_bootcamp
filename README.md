@@ -13,11 +13,11 @@ Core components of cumulative table design:
 - Compute cumulative metrics (eg. days since x)
 - Combine arrays and changing values
 
-Hands-on:
-### 1. Install Docker desktop from the website. 
+### Hands-on:
+#### 1. Install Docker desktop from the website. 
    - https://www.docker.com/
 
-### 2. **Clone the repository**
+#### 2. **Clone the repository**
 
 - Clone the repo using the SSH link. This will create a new folder in the current directory on your local machine.
     
@@ -34,7 +34,7 @@ Hands-on:
     cd data-engineer-handbook/bootcamp/materials/1-dimensional-data-modeling
     ```
    
-### 🐳 **3: Run Postgres in Docker**
+#### 🐳 **3: Run Postgres in Docker**
 
 - Install Docker Desktop from **[here](https://www.docker.com/products/docker-desktop/)**.
 - Copy **`example.env`** to **`.env`**:
@@ -72,7 +72,7 @@ Hands-on:
     docker compose down -v
     ```
 
-  ### 4. **Connect to Postgres in Database Client**
+  #### 4. **Connect to Postgres in Database Client**
 
   - Some options for interacting with your Postgres instance:
     - DataGrip - JetBrains; 30-day free trial or paid version.
@@ -89,6 +89,9 @@ Hands-on:
     &rarr; :bulb: You can edit these values by modifying the corresponding values in **`.env`**.
     
 - If the test connection is successful, click "Finish" or "Save" to save the connection. You should now be able to use the database client to manage your PostgreSQL database locally.
+
+#### Cumulative table design and historical analysis
+Find all the queries used to build the cumulative table creation and analysis in the CumulativeTableDesign.sql script.
 
 
 
