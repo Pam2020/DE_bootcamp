@@ -1,5 +1,7 @@
 ## Week 1: Dimensional Data Modeling: Hands-on
 
+### Day 1:
+
 In this week, we will be building a cumulative table design. When building master data, we need to have the complete history, store all dimensions. 
 
 Core components of cumulative table design:
