@@ -89,3 +89,8 @@ Core components of cumulative table design:
 
 #### 5. Cumulative table design and historical analysis
 Find all the queries used to build the cumulative table creation and analysis in the CumulativeTableDesign.sql script.
+
+### Day 2: SCD Table
+
+
+
