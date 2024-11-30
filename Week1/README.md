@@ -92,5 +92,7 @@ Find all the queries used to build the cumulative table creation and analysis in
 
 ### Day 2: SCD Table
 
+We will be tracking changes in the scoring_class and is_active columns from the cumulative table into a players_scd table. The columns in this tabke would be player_name, scoring_class, is_active. start_season, and end_season. This will show the range of season where the given combination of scoring_class and is_active are true. Go through the SCDTable.sql to find the code that does this. 
+
 
 
